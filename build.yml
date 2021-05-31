@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches:
-      - ci/ds-4
+      - master
 jobs:
   Sonar-build:
     name: Analyze
